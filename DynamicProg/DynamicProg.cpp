@@ -6,6 +6,7 @@
 #include "grid_traveler.h"
 #include "can_sum.h"
 #include "how_sum.h"
+#include "best_sum.h"
 
 template<typename T>
 inline void print_vector(const std::vector<T>& vec)
@@ -27,7 +28,9 @@ int main()
     //auto x = find_fibonachchi_number<uint64_t>(50);
     //auto x = find_grid_traveler<uint64_t>(18,18);
     //auto x = can_sum<int64_t>(301, { 7, 14 });
-    auto x = how_sum<int64_t>(301, {7,14});
+    //auto x = how_sum<int64_t>(301, {7,14});
+	auto x = best_sum<int64_t>(100, { 1,25,5,7});
+
 
 	print_vector<int64_t>(x);
     std::cout << "Res=" << x.size() << std::endl;

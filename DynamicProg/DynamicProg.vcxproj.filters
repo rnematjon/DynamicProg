@@ -32,5 +32,8 @@
     <ClInclude Include="how_sum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="best_sum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
